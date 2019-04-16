@@ -3,6 +3,7 @@ const product = require("./../controllers/products");
 const createError = require("http-errors");
 const validator = require("validator");
 
+
 module.exports = categoryCtrl = {
   //get all categories
   getAll: async function(req, res, next) {
